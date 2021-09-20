@@ -5,24 +5,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-        * {
-            padding: 0;
-            margin: 0;
-        }
-    </style>
+
     <title>
         HTML5 Page
     </title>
 </head>
 
 <body>
+    <main>
     <header>
         <h1>Heading 1 inside header</h1>
         <p>Paragraph 1 inside header</p>
     </header>
     <nav style="background-color:greenyellow;">
-        <p>Navigation bar</p>
+        <h2>Navigation bar</h2>
     </nav>
 
     <section>
@@ -32,9 +28,81 @@
         </article>
     </section>
     <hr>
+    
+    <section>
+        <video width="400" controls>video
+            <source src="./mov_bbb.mp4" type="video/mp4">
+        </video>
+    </section>
+<hr>
+    <form>
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname"><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname">
+    </form>
+<hr>
+    <p >
+        Examples of where a <b>section</b>  element can be used:
+           
+    </p>
+     <ul>
+                <li>Chapters</li>
+                <li>Introduction</li>
+                <li>News items</li>
+                <li>Chapters</li>
+            </ul>
+            <hr>
+    <p>
+        The <b>article</b> element specifies independent, self-contained content.
+       Examples of where the <article> element can be used:
+           <ul>
+               <li>Forum posts</li>
+               <li>Blog posts</li>
+                <li>User comments</li>
+                <li>Product cards</li>    
+                <li>Newspaper articles</li>
+           </ul>
+    </p>
+    <hr>
+    <h1>The article element</h1>
+
+<article>
+  <h2>Google Chrome</h2>
+  <p>Google Chrome is a web browser developed by Google, released in 2008. Chrome is the world's most popular web browser today!</p>
+</article>
+
+<article>
+  <h2>Mozilla Firefox</h2>
+  <p>Mozilla Firefox is an open-source web browser developed by Mozilla. Firefox has been the second most popular web browser since January, 2018.</p>
+</article>
+
+<article>
+  <h2>Microsoft Edge</h2>
+  <p>Microsoft Edge is a web browser developed by Microsoft, released in 2015. Microsoft Edge replaced Internet Explorer.</p>
+</article>
+<hr>
+<section>
+    The  <b>main</b> tag specifies the main content of a document.
+
+The content inside the <b>main</b> element should be unique to the document.  <br> It should not contain any content that is repeated across documents such as sidebars, navigation links, copyright information, site logos, and search forms.
+</section>
+<hr>
+
+
+
+<h2>HTML Iframes</h2>
+<p>You can use the height and width attributes to specify the size of the iframe:</p>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-5CdAup0o-I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<br>
+<br>
+<hr>
     <footer>
         Copyright &copy; 2021, Group 1
     </footer>
+
+</main>
 </body>
 
 </html>
